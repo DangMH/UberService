@@ -10,7 +10,7 @@ import com.sun.jersey.api.client.filter.HTTPBasicAuthFilter;
 
 public class MandrillService extends EmailService {
 	private final static int MANDRILL_SERVICE_WEIGHT = 13;
-	private final static String API_KEY = "A0x-j05BFKkoY0NwghUAAQ";
+	private final static String API_KEY = "SAMPLE_API_KEY";
 	private final static String MANDRILL_ADDRESS = "https://mandrillapp.com/api/1.0/messages/send.json";
 
 	private WebResource webResource; 
